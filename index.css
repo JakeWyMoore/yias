@@ -5,7 +5,7 @@
     /* background-color: rgb(235, 235, 81); */
 }
 .main-container {
-    background: url('img/bg.png');
+    background: url('./img/bg.png');
     background-size: cover;
 }
 .content-container {
