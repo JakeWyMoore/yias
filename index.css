@@ -121,8 +121,8 @@ a {
 /* middle content */
 .middle {
     width: 80%;
-    margin-left: -300px;
-    padding-left: 300px;
+    margin-left: -100%;
+    padding-left: 100%;
     background: rgba(32, 60, 143, 0.85);
 }
 .middle-content {
