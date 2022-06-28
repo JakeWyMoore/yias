@@ -2,7 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    /* background-color: rgb(235, 235, 81); */
 }
 .main-container {
     background: url('img/background.png');
@@ -95,7 +94,7 @@ a {
     width: 500px;
 }
 /* styles for using fonts */
-.date-one {
+/* .date-one {
     font-family: 'Ms Madi', cursive;
 }
 .date-two {
@@ -109,7 +108,7 @@ a {
 }
 .top {
     margin-bottom: -35px;
-}
+} */
 /* header-content */
 .header-content {
     padding: 20px 0;
