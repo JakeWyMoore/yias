@@ -233,7 +233,7 @@ a {
         width: 250px;
     }
     .date {
-        width: 350px;
+        width: 300px;
         margin: 0 auto;
         padding: 20px;
     }
@@ -245,5 +245,10 @@ a {
     .middle {
         margin: 0 auto;
         padding: 20px;
+    }
+
+    /* FOOTER */
+    .footer-content img {
+        width: 50px;
     }
 }
