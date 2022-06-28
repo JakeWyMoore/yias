@@ -1,0 +1,249 @@
+/* PAGE DEFAULT */
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(235, 235, 81); */
+}
+.main-container {
+    background: url('/img/YIAS_LandingPage.png');
+    background-size: cover;
+}
+.content-container {
+    margin: 0 auto;
+    width: 65%;
+}
+
+/* ------------------------------------------------- */
+/* FONTS */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 22px;
+}
+h4 {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 12px;
+
+}
+p {
+    font-family: 'Montserrat', sans-serif;    
+}
+a {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: #f1b517;
+    font-size: 16px;
+}
+
+/* ------------------------------------------------- */
+/* PAGE STYLES */
+/* top right */
+.top-section {
+    color: #f2b518;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+    margin-bottom: -30px;
+}
+.top-section-content {
+    right: 0;
+    width: 35%;
+    padding: 10px 10px 10px 50px;
+    background-color: #203c8f;
+
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 3% 100%);
+}
+.top-section-script {
+    font-family: 'Ms Madi', cursive;
+
+}
+
+/* ------------------------------------------------- */
+/* HEADER */
+/* header date */
+.header {
+    width: 70%;
+}
+.header h1 {
+    font-size: 72px;
+}
+/* styles for using images */
+.main-logo {
+    width: 300px;
+}
+.date {
+    width: 500px;
+}
+/* styles for using fonts */
+.date-one {
+    font-family: 'Ms Madi', cursive;
+}
+.date-two {
+    font-family: 'Black Ops One', cursive;
+}
+.date-three {
+    font-family: 'Atomic Age', cursive;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #203c8f;
+}
+.top {
+    margin-bottom: -35px;
+}
+/* header-content */
+.header-content {
+    padding: 20px 0;
+    color: #203c8f;
+}
+
+/* ------------------------------------------------- */
+/* MIDDLE */
+/* middle content */
+.middle {
+    width: 80%;
+    margin-left: -300px;
+    padding-left: 300px;
+    background: rgba(32, 60, 143, 0.85);
+}
+.middle-content {
+    padding: 25px 25px 25px 0;
+}
+.middle-content h3 {
+    color: #f1b517;
+}
+.middle-content p {
+    color: white;
+}
+.middle-content a {
+    transition: 0.2s;
+}
+.middle-content a:hover {
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+/* button */
+.middle-content button {
+    margin: 20px 0;
+    padding: 5px 20px;
+
+    background-color: #f1b517;
+    border: none;
+    color: #203c8f;
+
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 32px;
+    transition: 0.2s;
+}
+.middle-content button:hover {
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 5px;
+    transition: 0.2s;
+}
+/* contact */
+.middle-contact {
+    color: white;
+}
+.contact-name {
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+.dot {
+    padding: 0 8px;
+}
+
+/* ------------------------------------------------- */
+/* FOOTER */
+/* footer content */
+.footer {
+    padding: 20px 0 ;
+}
+.footer-content {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top img {
+    width: 70px;
+    margin: 0px 20px;
+}
+.line {
+    background:#203c8f; 
+    height: 2px;
+    width: 100%;
+}
+.footer-content img {
+    width: 150px;
+}
+
+/* ------------------------------------------------- */
+/* MOBILE STYLES */
+@media only screen and (max-width: 710px) {
+    /* CONTAINER */
+    .content-container {
+        width: 90%;
+    }
+    
+    /* TOP SECTION */
+    .top-section {
+        margin-bottom: 50px;
+    }
+    .top-section-content {
+        width: 75%;
+    }
+
+    /* HEADER */
+    .header {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .main-logo {
+        width: 250px;
+    }
+    .date {
+        width: 350px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .header-content {
+        padding: 20px 0 50px;
+    }
+
+    /* MIDDLE SECTION */
+    .middle {
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
